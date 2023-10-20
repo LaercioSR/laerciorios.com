@@ -1,0 +1,12 @@
+{
+  "general": {
+    "language": "Português",
+    "number": "{{value, number}}",
+    "roundNumber": "{{value, roundNumber}}",
+    "date": {
+      "monthNameYear": "{{date, MMMM, YYYY}}",
+      "monthYear": "{{date, MM/YYYY}}",
+      "year": "{{date, YYYY}}"
+    }
+  }
+}

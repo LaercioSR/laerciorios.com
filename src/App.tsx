@@ -3,6 +3,7 @@ import { GlobalStyle } from "./styles/global";
 import { defaultTheme } from "./styles/themes/default";
 import { BrowserRouter } from "react-router-dom";
 import { Router } from "./Router";
+import "./i18n";
 
 function App() {
   return (
