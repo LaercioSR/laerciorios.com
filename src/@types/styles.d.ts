@@ -1,10 +1,12 @@
 import "styled-components";
-import { defaultTheme } from "../styles/themes/default";
 
-type ThemeType = typeof defaultTheme;
+type ThemeType = {
+  background: string;
+  text: string;
+  button: string;
+  buttonText: string;
+};
 
 declare module "styled-components" {
-  export interface DefaultTheme extends ThemeType {
-    white: string;
-  }
+  export interface DefaultTheme extends ThemeType {}
 }
