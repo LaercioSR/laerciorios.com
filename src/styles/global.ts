@@ -6,15 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  
-  :focus {
-    outline: 0;
-    box-shadow: 0 0 0 2px ${(props) => props.theme.green};
-  }
 
   body {
     background: ${(props) => props.theme.background};
-    color: ${(props) => props.theme["base-text"]};
+    color: ${(props) => props.theme["text"]};
     -webkit-font-smoothing: antialiased;
   }
 
@@ -25,23 +20,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    color: ${(props) => props.theme["base-title"]};
-  }
-
-  input {
-    background-color: ${(props) => props.theme["base-input"]};
-    color: ${(props) => props.theme["base-input-text"]};
+    color: ${(props) => props.theme["text"]};
   }
 
   a {
     text-decoration: none;
-  }
-
-  main {
-    padding: 5rem 10rem;
-
-    @media (max-width: 768px) {
-      padding: 4rem 1rem 0 1rem;
-    }
   }
 `;

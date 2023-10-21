@@ -8,5 +8,7 @@
       "monthYear": "{{date, MM/YYYY}}",
       "year": "{{date, YYYY}}"
     }
-  }
+  },
+  "profession": "Desenvolvedor de Software",
+  "description": "Tricolor, funcionando a base do café e tentando me tornar um mestre pokémon."
 }
