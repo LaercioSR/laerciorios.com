@@ -1,0 +1,14 @@
+{
+  "general": {
+    "language": "English",
+    "number": "{{value, number}}",
+    "roundNumber": "{{value, roundNumber}}",
+    "date": {
+      "monthNameYear": "{{date, MMMM, YYYY}}",
+      "monthYear": "{{date, MM/YYYY}}",
+      "year": "{{date, YYYY}}"
+    }
+  },
+  "profession": "Software Engineer",
+  "description": "Running on coffee and trying to become a pokémon master."
+}

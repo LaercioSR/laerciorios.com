@@ -3,4 +3,5 @@ export const lightTheme = {
   text: "#333333",
   button: "#ff00001a",
   buttonText: "#ff0000",
+  buttonHeader: "#0000001a",
 };

@@ -6,6 +6,7 @@ import moment from "moment";
 import "moment/locale/pt";
 
 import pt from "./locales/pt.json";
+import en from "./locales/en.json";
 
 const options = {
   // Order and from where user language should be detected.
@@ -33,9 +34,10 @@ i18n
   .init({
     resources: {
       pt: { translation: pt },
+      en: { translation: en },
     },
-    fallbackLng: ["pt"],
-    supportedLngs: ["pt"],
+    fallbackLng: ["en"],
+    supportedLngs: ["pt", "en"],
     detection: options,
 
     interpolation: {
