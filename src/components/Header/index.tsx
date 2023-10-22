@@ -29,7 +29,7 @@ export function Header() {
     <Container>
       <Content>
         <LanguageButton onClick={handleToggleLanguage}>
-          {currentLanguage}
+          {currentLanguage === "en" ? "pt" : "en"}
         </LanguageButton>
         <ThemeButton onClick={handleToggleTheme}>
           {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}

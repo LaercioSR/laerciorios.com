@@ -10,5 +10,36 @@
     }
   },
   "profession": "Desenvolvedor de Software",
-  "description": "Tricolor, funcionando a base do café e tentando me tornar um mestre pokémon."
+  "description": "Tricolor, funcionando a base do café e tentando me tornar um mestre pokémon.",
+  "seeResume": "Veja o currículo completo",
+  "present": "Presente",
+  "about": {
+    "title": "Sobre",
+    "description": ""
+  },
+  "experiences": {
+    "title": "Experiências",
+    "golfarma": {
+      "position": "",
+      "description": ""
+    },
+    "geodatin": {
+      "position": "",
+      "description": ""
+    }
+  },
+  "formations": {
+    "title": "Formações",
+    "uefs": {
+      "course": "",
+      "description": ""
+    },
+    "senai": {
+      "course": "",
+      "description": ""
+    }
+  },
+  "projects": {
+    "title": "Projetos"
+  }
 }

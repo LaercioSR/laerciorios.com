@@ -10,5 +10,36 @@
     }
   },
   "profession": "Software Engineer",
-  "description": "Running on coffee and trying to become a pokémon master."
+  "description": "Running on coffee and trying to become a pokémon master.",
+  "seeResume": "View Full Résumé",
+  "present": "Present",
+  "about": {
+    "title": "About",
+    "description": ""
+  },
+  "experiences": {
+    "title": "Experiences",
+    "golfarma": {
+      "position": "",
+      "description": ""
+    },
+    "geodatin": {
+      "position": "",
+      "description": ""
+    }
+  },
+  "formations": {
+    "title": "Formations",
+    "uefs": {
+      "course": "",
+      "description": ""
+    },
+    "senai": {
+      "course": "",
+      "description": ""
+    }
+  },
+  "projects": {
+    "title": "Projects"
+  }
 }

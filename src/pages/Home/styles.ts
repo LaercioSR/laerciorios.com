@@ -10,27 +10,30 @@ export const Container = styled("div")`
 export const Content = styled("div")`
   max-width: 1200px;
   width: 100%;
+  padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
 `;
 
 export const LeftSide = styled("div")`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 1rem;
+  /* justify-content: space-between; */
 
-  width: 400px;
-  height: calc(100vh - 6rem);
+  /* width: 400px; */
+  /* height: calc(100vh - 6rem); */
 `;
 
 export const RightSide = styled("div")`
-  width: 600px;
+  /* width: 600px; */
 `;
 
 export const ProfileInfo = styled("div")`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.25rem;
 `;
 
 export const ProfileName = styled("h1")`
@@ -78,3 +81,7 @@ export const SocialNetworkLink = styled("a")`
     transition: opacity 0.2s ease-in-out;
   }
 `;
+
+export const SectionInfo = styled("div")``;
+
+export const SectionTitle = styled("h3")``;
