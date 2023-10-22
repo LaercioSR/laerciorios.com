@@ -29,6 +29,7 @@ export const LeftSide = styled("div")`
 
   @media (min-width: 1024px) {
     min-width: 350px;
+    width: 350px;
     height: calc(100vh - 6rem);
     justify-content: space-between;
     position: sticky;

@@ -42,6 +42,7 @@
     }
   },
   "projects": {
-    "title": "Projetos"
+    "title": "Projetos",
+    "noProjects": "Sem projetos no momento"
   }
 }

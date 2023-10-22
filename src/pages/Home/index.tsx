@@ -213,6 +213,7 @@ export function Home() {
           </SectionInfo>
           <SectionInfo>
             <SectionTitle>{t("projects.title")}</SectionTitle>
+            <SectionDescription>{t("projects.noProjects")}</SectionDescription>
           </SectionInfo>
         </RightSide>
       </Content>
