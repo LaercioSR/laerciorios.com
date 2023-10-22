@@ -22,6 +22,8 @@ import {
   ExperienceFormationRole,
   SkillsList,
   SkillItem,
+  ExperienceFormationContent,
+  LinkResume,
 } from "./styles";
 import { Header } from "../../components/Header";
 import GithubLogo from "./../../assets/github.svg?react";
@@ -31,6 +33,7 @@ import LeetCodeLogo from "./../../assets/leetcode.svg?react";
 import LinkedinLogo from "./../../assets/linkedin.svg?react";
 import XLogo from "./../../assets/x.svg?react";
 import ArrowOutward from "./../../assets/arrow-outward.svg?react";
+import ArrowForward from "./../../assets/arrow-forward.svg?react";
 
 export function Home() {
   const { t } = useTranslation();
@@ -74,7 +77,7 @@ export function Home() {
       key: "geodatin",
       startDate: new Date("2021-02-01"),
       endDate: t("present"),
-      skills: ["NodeJS", "TypeScript", "ReactJS"],
+      skills: ["NodeJS", "TypeScript", "ReactJS", "PostgreSQL"],
       link: "https://geodatin.com/",
     },
     {
@@ -82,7 +85,7 @@ export function Home() {
       key: "golfarma",
       startDate: new Date("2020-01-01"),
       endDate: new Date("2021-02-01"),
-      skills: ["PHP", "Laravel"],
+      skills: ["PHP", "Laravel", "SQL Server"],
       link: "https://golfarma.com.br/",
     },
   ];
@@ -103,6 +106,8 @@ export function Home() {
       link: "https://www.senai.br/",
     },
   ];
+
+  // const projects = [];
 
   return (
     <Container>
@@ -151,24 +156,30 @@ export function Home() {
                       date: experience.endDate,
                     })}
                   </SectionDate>
-                  <ExperienceFormationTitle href={experience.link}>
-                    {experience.name}
-                    {experience.link && <ArrowOutward />}
-                  </ExperienceFormationTitle>
-                  <ExperienceFormationRole>
-                    {t(`experiences.${experience.key}.position`)}
-                  </ExperienceFormationRole>
-                  <ExperienceFormationDescription>
-                    {t(`experiences.${experience.key}.description`)}
-                  </ExperienceFormationDescription>
-                  <SkillsList>
-                    {experience.skills.map((skill) => {
-                      return <SkillItem key={skill}>{skill}</SkillItem>;
-                    })}
-                  </SkillsList>
+                  <ExperienceFormationContent>
+                    <ExperienceFormationTitle href={experience.link}>
+                      {experience.name}
+                      {experience.link && <ArrowOutward />}
+                    </ExperienceFormationTitle>
+                    <ExperienceFormationRole>
+                      {t(`experiences.${experience.key}.position`)}
+                    </ExperienceFormationRole>
+                    <ExperienceFormationDescription>
+                      {t(`experiences.${experience.key}.description`)}
+                    </ExperienceFormationDescription>
+                    <SkillsList>
+                      {experience.skills.map((skill) => {
+                        return <SkillItem key={skill}>{skill}</SkillItem>;
+                      })}
+                    </SkillsList>
+                  </ExperienceFormationContent>
                 </ExperienceFormation>
               );
             })}
+            <LinkResume href={t("linkResume")} target="__blank">
+              {t("seeResume")}
+              <ArrowForward />
+            </LinkResume>
           </SectionInfo>
           <SectionInfo>
             <SectionTitle>{t("formations.title")}</SectionTitle>
@@ -184,15 +195,18 @@ export function Home() {
                       date: formation.endDate,
                     })}
                   </SectionDate>
-                  <ExperienceFormationTitle>
-                    {formation.name}
-                  </ExperienceFormationTitle>
-                  <ExperienceFormationRole>
-                    {t(`formations.${formation.key}.course`)}
-                  </ExperienceFormationRole>
-                  <ExperienceFormationDescription>
-                    {t(`formations.${formation.key}.description`)}
-                  </ExperienceFormationDescription>
+                  <ExperienceFormationContent>
+                    <ExperienceFormationTitle href={formation.link}>
+                      {formation.name}
+                      {formation.link && <ArrowOutward />}
+                    </ExperienceFormationTitle>
+                    <ExperienceFormationRole>
+                      {t(`formations.${formation.key}.course`)}
+                    </ExperienceFormationRole>
+                    <ExperienceFormationDescription>
+                      {t(`formations.${formation.key}.description`)}
+                    </ExperienceFormationDescription>
+                  </ExperienceFormationContent>
                 </ExperienceFormation>
               );
             })}

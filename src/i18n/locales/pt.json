@@ -11,8 +11,9 @@
     }
   },
   "profession": "Desenvolvedor de Software",
-  "description": "Tricolor, funcionando a base do café e tentando me tornar um mestre pokémon.",
+  "description": "Funcionando a base do café, trocando código por pizza e tentando me tornar um mestre pokémon nas horas vagas.",
   "seeResume": "Veja o currículo completo",
+  "linkResume": "/resume/pt.pdf",
   "present": "Presente",
   "about": {
     "title": "Sobre",

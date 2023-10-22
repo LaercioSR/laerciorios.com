@@ -15,7 +15,7 @@ export const Content = styled("div")`
   flex-direction: column;
   gap: 5rem;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     flex-direction: row;
     justify-content: space-between;
     position: relative;
@@ -27,8 +27,8 @@ export const LeftSide = styled("div")`
   flex-direction: column;
   gap: 3rem;
 
-  @media (min-width: 768px) {
-    width: 300px;
+  @media (min-width: 1024px) {
+    min-width: 350px;
     height: calc(100vh - 6rem);
     justify-content: space-between;
     position: sticky;
@@ -92,9 +92,7 @@ export const RightSide = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 3rem;
-
-  @media (min-width: 768px) {
-  }
+  padding-bottom: 2rem;
 `;
 
 export const SectionInfo = styled("div")`
@@ -120,12 +118,23 @@ export const ExperienceFormation = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
 `;
+
+export const ExperienceFormationContent = styled("div")``;
 
 export const SectionDate = styled("p")`
   opacity: 0.8;
   text-transform: uppercase;
   font-weight: 700;
+
+  @media (min-width: 768px) {
+    min-width: 12rem;
+  }
 `;
 
 export const ExperienceFormationTitle = styled("a")`
@@ -160,6 +169,7 @@ export const ExperienceFormationRole = styled("p")`
 
 export const ExperienceFormationDescription = styled("p")`
   white-space: pre-line;
+  margin: 0.5rem 0;
 `;
 
 export const SkillsList = styled("ul")`
@@ -173,4 +183,24 @@ export const SkillItem = styled("li")`
   border-radius: 99999px;
   background-color: ${(props) => props.theme.button};
   color: ${(props) => props.theme.buttonText};
+`;
+
+export const LinkResume = styled("a")`
+  color: ${(props) => props.theme.text};
+  text-decoration: underline;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: opacity 0.2s ease-in-out;
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: ${(props) => props.theme.text};
+  }
+
+  &:hover {
+    opacity: 1;
+  }
 `;

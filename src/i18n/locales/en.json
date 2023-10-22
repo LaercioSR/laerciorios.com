@@ -11,8 +11,9 @@
     }
   },
   "profession": "Software Engineer",
-  "description": "Running on coffee and trying to become a pokémon master.",
+  "description": "Working on coffee, trading code for pizza and trying to become a Pokémon master in my spare time.",
   "seeResume": "View Full Résumé",
+  "linkResume": "/resume/en.pdf",
   "present": "Present",
   "about": {
     "title": "About",
