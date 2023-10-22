@@ -1,6 +1,6 @@
 # Personal Website (laerciorios.com)
 
-![Screenshot of My Personal Website](https://raw.githubusercontent.com/LaercioSR/laerciorios.com/raw/main/__docs/screenshot.png)
+![Screenshot of My Personal Website](https://raw.githubusercontent.com/LaercioSR/laerciorios.com/main/__docs/screenshot.png)
 
 This is the repository of my personal website, which you can access at [https://laerciorios.com](https://laerciorios.com).
 
