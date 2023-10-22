@@ -30,6 +30,7 @@ import HackerrankLogo from "./../../assets/hackerrank.svg?react";
 import LeetCodeLogo from "./../../assets/leetcode.svg?react";
 import LinkedinLogo from "./../../assets/linkedin.svg?react";
 import XLogo from "./../../assets/x.svg?react";
+import ArrowOutward from "./../../assets/arrow-outward.svg?react";
 
 export function Home() {
   const { t } = useTranslation();
@@ -74,6 +75,7 @@ export function Home() {
       startDate: new Date("2021-02-01"),
       endDate: t("present"),
       skills: ["NodeJS", "TypeScript", "ReactJS"],
+      link: "https://geodatin.com/",
     },
     {
       name: "Golfarma",
@@ -81,6 +83,7 @@ export function Home() {
       startDate: new Date("2020-01-01"),
       endDate: new Date("2021-02-01"),
       skills: ["PHP", "Laravel"],
+      link: "https://golfarma.com.br/",
     },
   ];
 
@@ -90,12 +93,14 @@ export function Home() {
       key: "uefs",
       startDate: "2017",
       endDate: t("present"),
+      link: "https://www.ecomp.uefs.br/",
     },
     {
       name: "SENAI",
       key: "senai",
       startDate: "2018",
       endDate: "2019",
+      link: "https://www.senai.br/",
     },
   ];
 
@@ -105,8 +110,10 @@ export function Home() {
       <Content>
         <LeftSide>
           <ProfileInfo>
-            <ProfileName>Laercio de Souza Rios</ProfileName>
-            <ProfileProfession>{t("profession")}</ProfileProfession>
+            <div>
+              <ProfileName>Laercio Rios</ProfileName>
+              <ProfileProfession>{t("profession")}</ProfileProfession>
+            </div>
             <ProfileDescription>{t("description")}</ProfileDescription>
           </ProfileInfo>
           <SocialNetworks>
@@ -144,8 +151,9 @@ export function Home() {
                       date: experience.endDate,
                     })}
                   </SectionDate>
-                  <ExperienceFormationTitle>
+                  <ExperienceFormationTitle href={experience.link}>
                     {experience.name}
+                    {experience.link && <ArrowOutward />}
                   </ExperienceFormationTitle>
                   <ExperienceFormationRole>
                     {t(`experiences.${experience.key}.position`)}

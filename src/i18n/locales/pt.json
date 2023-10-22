@@ -16,28 +16,28 @@
   "present": "Presente",
   "about": {
     "title": "Sobre",
-    "description": "Sou um <1>desenvolvedor fullstack</1> com foco no <1>backend</1>."
+    "description": "Graduando em Engenharia da Computação pela UEFS e técnico em Desenvolvimento de Sistemas pelo SENAI. Sou uma pessoa movida a resolver problemas, buscando e aprendendo sempre novas soluções.\nAtualmente sou desenvolvedor back-end na Geodatin, uma startup focada em soluções para geoinformações e inteligência de dados.\nTenho experiência em desenvolvimento de APIs Restful usando frameworks como Laravel e Node.JS, trabalhando com bancos de dados relacionais, principalmente postgres e mysql, além de experiência com a linguagem python."
   },
   "experiences": {
     "title": "Experiências",
     "golfarma": {
       "position": "Estágio - Desenvolvedor Backend",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
+      "description": "Distribuidora farmacêutica, focada no mercado baiano. Passou a investir em tecnologia no final de 2019 para se adaptar ao mercado mais tecnológico.\n- Desenvolvimento: Criação e manutenção de API's restful e banco de dados.\n- Operacional: Contato direto com cliente, para solução de problemas e implementação de sistema.\n- Tecnologias: PHP (Laravel), SQL (SQL Server e Postgres)."
     },
     "geodatin": {
       "position": "Desenvolvedor Fullstack",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
+      "description": "Empresa focada no desenvolvimento de sistemas unindo inteligência em dadose geoinformação.\n- Desenvolvimento: Criação e manunteção de API Restful e bancos de dados, além de criação de web scraping para extração de dados públicos.\n- Tecnologias: Node.JS (Typescript, Express, Typeorm), Python (Selenium, Beautifulsoup), Postegres, Redis, Docker, Github Actions."
     }
   },
   "formations": {
     "title": "Formações",
     "uefs": {
       "course": "Engenharia de Computação",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
+      "description": ""
     },
     "senai": {
       "course": "Desenvolvimento de Sistemas",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
+      "description": ""
     }
   },
   "projects": {

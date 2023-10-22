@@ -16,17 +16,17 @@
   "present": "Present",
   "about": {
     "title": "About",
-    "description": "I'm a <1>fullstack developer</1> focusing on the <1>backend</1>."
+    "description": "Graduating in Computer Engineering at UEFS and technician in Systems Development at SENAI. I am a person driven to solve problems, always seeking and learning new solutions.\nI am currently a back-end developer at Geodatin, a startup focused on solutions for geoinformation and data intelligence.\nI have experience in developing Restful APIs using frameworks such as Laravel and Node.JS, working with relational databases, mainly postgres and mysql, as well as experience with the python language."
   },
   "experiences": {
     "title": "Experiences",
     "golfarma": {
       "position": "Internship - Backend Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
+      "description": "Pharmaceutical distributors focused on the Bahia market. It started to invest in technology at the end of 2019 to adapt to the more technological market.\n- Development: Creation and maintenance of restful APIs and database.\n- Operational: Direct contact with the customer, for troubleshooting and system implementation.\n- Technologies: PHP (Laravel), SQL (SQL Server and PostgreSQL)."
     },
     "geodatin": {
       "position": "Fullstack Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
+      "description": "A company focused on the development of systems combining intelligence in data and geoinformation.\n- Development: Creation and maintenance of Restful API and databases, in addition to creating web scraping to extract public data.\n- Technologies: Node.JS (Typescript, Express, TypeOrm), Python (Selenium, Beautifulsoup), PostgreSQL, Redis."
     }
   },
   "formations": {

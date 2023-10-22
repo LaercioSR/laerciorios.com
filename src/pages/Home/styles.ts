@@ -10,20 +10,30 @@ export const Container = styled("div")`
 export const Content = styled("div")`
   max-width: 1200px;
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  gap: 5rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
 `;
 
 export const LeftSide = styled("div")`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  /* justify-content: space-between; */
+  gap: 3rem;
 
-  /* width: 400px; */
-  /* height: calc(100vh - 6rem); */
+  @media (min-width: 768px) {
+    width: 300px;
+    height: calc(100vh - 6rem);
+    justify-content: space-between;
+    position: sticky;
+    top: 6rem;
+  }
 `;
 
 export const ProfileInfo = styled("div")`
@@ -82,6 +92,9 @@ export const RightSide = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 3rem;
+
+  @media (min-width: 768px) {
+  }
 `;
 
 export const SectionInfo = styled("div")`
@@ -91,10 +104,11 @@ export const SectionInfo = styled("div")`
 `;
 
 export const SectionTitle = styled("h2")`
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.125rem;
 `;
 
 export const SectionDescription = styled("p")`
+  white-space: pre-line;
   opacity: 0.8;
 `;
 
@@ -109,18 +123,44 @@ export const ExperienceFormation = styled("div")`
 `;
 
 export const SectionDate = styled("p")`
-  opacity: 0.9;
+  opacity: 0.8;
   text-transform: uppercase;
+  font-weight: 700;
 `;
 
-export const ExperienceFormationTitle = styled("h3")``;
+export const ExperienceFormationTitle = styled("a")`
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: flex;
+  gap: 0.25rem;
+  color: ${(props) => props.theme.text};
+  transition: all 0.2s ease-in-out;
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: ${(props) => props.theme.text};
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  &:hover {
+    svg {
+      opacity: 1;
+    }
+    text-decoration: underline;
+  }
+`;
 
 export const ExperienceFormationRole = styled("p")`
   font-weight: 700;
   opacity: 0.7;
 `;
 
-export const ExperienceFormationDescription = styled("p")``;
+export const ExperienceFormationDescription = styled("p")`
+  white-space: pre-line;
+`;
 
 export const SkillsList = styled("ul")`
   list-style-type: none;
