@@ -5,6 +5,7 @@
     "roundNumber": "{{value, roundNumber}}",
     "date": {
       "monthNameYear": "{{date, MMMM, YYYY}}",
+      "monthAbbNameYear": "{{date, MMM YYYY}}",
       "monthYear": "{{date, MM/YYYY}}",
       "year": "{{date, YYYY}}"
     }
@@ -15,28 +16,28 @@
   "present": "Present",
   "about": {
     "title": "About",
-    "description": ""
+    "description": "I'm a <1>fullstack developer</1> focusing on the <1>backend</1>."
   },
   "experiences": {
     "title": "Experiences",
     "golfarma": {
-      "position": "",
-      "description": ""
+      "position": "Internship - Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
     },
     "geodatin": {
-      "position": "",
-      "description": ""
+      "position": "Fullstack Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
     }
   },
   "formations": {
     "title": "Formations",
     "uefs": {
-      "course": "",
-      "description": ""
+      "course": "Computer Engineering",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
     },
     "senai": {
-      "course": "",
-      "description": ""
+      "course": "Systems Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada nisi et rhoncus venenatis. Sed suscipit auctor nibh, in eleifend augue consequat id. Quisque rutrum commodo dui a rhoncus. Mauris facilisis nibh nisi, sollicitudin feugiat enim laoreet hendrerit. Aliquam dictum neque at congue mollis. Curabitur a placerat lectus, nec dignissim nunc. Curabitur justo est, rhoncus lobortis libero vel, facilisis maximus elit. Cras non sagittis leo, lobortis dictum elit. Sed elementum elit sed rutrum malesuada. Quisque vitae lorem ullamcorper tortor vulputate mattis eu vel dolor. Cras elementum gravida justo, quis elementum mi bibendum imperdiet."
     }
   },
   "projects": {

@@ -10,7 +10,7 @@ export const Container = styled("div")`
 export const Content = styled("div")`
   max-width: 1200px;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
@@ -19,21 +19,17 @@ export const Content = styled("div")`
 export const LeftSide = styled("div")`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   /* justify-content: space-between; */
 
   /* width: 400px; */
   /* height: calc(100vh - 6rem); */
 `;
 
-export const RightSide = styled("div")`
-  /* width: 600px; */
-`;
-
 export const ProfileInfo = styled("div")`
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.5rem;
 `;
 
 export const ProfileName = styled("h1")`
@@ -82,6 +78,59 @@ export const SocialNetworkLink = styled("a")`
   }
 `;
 
-export const SectionInfo = styled("div")``;
+export const RightSide = styled("div")`
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+`;
 
-export const SectionTitle = styled("h3")``;
+export const SectionInfo = styled("div")`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+`;
+
+export const SectionTitle = styled("h2")`
+  margin-bottom: 0.25rem;
+`;
+
+export const SectionDescription = styled("p")`
+  opacity: 0.8;
+`;
+
+export const SectionHighlight = styled("span")`
+  font-weight: 700;
+`;
+
+export const ExperienceFormation = styled("div")`
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+`;
+
+export const SectionDate = styled("p")`
+  opacity: 0.9;
+  text-transform: uppercase;
+`;
+
+export const ExperienceFormationTitle = styled("h3")``;
+
+export const ExperienceFormationRole = styled("p")`
+  font-weight: 700;
+  opacity: 0.7;
+`;
+
+export const ExperienceFormationDescription = styled("p")``;
+
+export const SkillsList = styled("ul")`
+  list-style-type: none;
+  display: flex;
+  gap: 0.25rem;
+`;
+
+export const SkillItem = styled("li")`
+  padding: 0.5rem 0.75rem;
+  border-radius: 99999px;
+  background-color: ${(props) => props.theme.button};
+  color: ${(props) => props.theme.buttonText};
+`;

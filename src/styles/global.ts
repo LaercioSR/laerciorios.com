@@ -7,6 +7,11 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --medium-screen: 768px;
+    --large-screen: 1024px;
+  }
+
   body {
     background: ${(props) => props.theme.background};
     color: ${(props) => props.theme["text"]};
