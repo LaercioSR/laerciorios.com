@@ -15,7 +15,6 @@
   "seeResume": "View Full Résumé",
   "linkResume": "/resume/en.pdf",
   "present": "Present",
-  "Year": "year",
   "about": {
     "title": "About",
     "description": "Graduating in Computer Engineering at UEFS and technician in Systems Development at SENAI. I am a person driven to solve problems, always seeking and learning new solutions.\nI am currently a back-end developer at Geodatin, a startup focused on solutions for geoinformation and data intelligence.\nI have experience in developing Restful APIs using frameworks such as Laravel and Node.JS, working with relational databases, mainly postgres and mysql, as well as experience with the python language."
@@ -44,8 +43,17 @@
   },
   "projects": {
     "title": "Projects",
+    "titlePage": "All Projetos",
     "noProjects": "No projects at the moment",
-    "seeMore": "See more",
+    "seeMore": "See all projects",
+    "columns": {
+      "year": "Year",
+      "title": "Project",
+      "bond": "Bond",
+      "link": "Link",
+      "description": "Details",
+      "skills": "Skills"
+    },
     "type": {
       "personal": "Personal",
       "academic": "Academic",

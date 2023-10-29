@@ -15,7 +15,6 @@
   "seeResume": "Veja o currículo completo",
   "linkResume": "/resume/pt.pdf",
   "present": "Presente",
-  "year": "Ano",
   "about": {
     "title": "Sobre",
     "description": "Graduando em Engenharia da Computação pela UEFS e técnico em Desenvolvimento de Sistemas pelo SENAI. Sou uma pessoa movida a resolver problemas, buscando e aprendendo sempre novas soluções.\nAtualmente sou desenvolvedor back-end na Geodatin, uma startup focada em soluções para geoinformações e inteligência de dados.\nTenho experiência em desenvolvimento de APIs Restful usando frameworks como Laravel e Node.JS, trabalhando com bancos de dados relacionais, principalmente postgres e mysql, além de experiência com a linguagem python."
@@ -44,8 +43,17 @@
   },
   "projects": {
     "title": "Projetos",
+    "titlePage": "Todos os Projetos",
     "noProjects": "Sem projetos no momento",
-    "seeMore": "Ver mais",
+    "seeMore": "Veja todos os projetos",
+    "columns": {
+      "year": "Ano",
+      "title": "Projeto",
+      "bond": "Vínculo",
+      "link": "Link",
+      "description": "Detalhes",
+      "skills": "Habilidades"
+    },
     "type": {
       "personal": "Pessoal",
       "academic": "Acadêmico",
