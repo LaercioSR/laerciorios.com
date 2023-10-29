@@ -218,7 +218,7 @@ export function Home() {
             <ProjectsList>
               {projectsHighlight.map((project) => (
                 <ProjectItem key={project.key}>
-                  <ProjectImage bg={`./img/projects/${project.image}`} />
+                  <ProjectImage src={`./img/projects/${project.image}`} />
                   <ExperienceFormationTitle href={project.link}>
                     {t(`projects.list.${project.key}.title`)}
                     {project.link && <ArrowOutward />}

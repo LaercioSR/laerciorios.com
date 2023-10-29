@@ -17,17 +17,17 @@
   "present": "Present",
   "about": {
     "title": "About",
-    "description": "Graduating in Computer Engineering at UEFS and technician in Systems Development at SENAI. I am a person driven to solve problems, always seeking and learning new solutions.\nI am currently a back-end developer at Geodatin, a startup focused on solutions for geoinformation and data intelligence.\nI have experience in developing Restful APIs using frameworks such as Laravel and Node.JS, working with relational databases, mainly postgres and mysql, as well as experience with the python language."
+    "description": "I have experience as a <1>software engineer</1>, currently working as a <1>fullstack developer</1>, but with a greater emphasis on back-end.\n\nI am <1>graduating in Computer Engineering< /1> from UEFS and <1>Systems Development Technician</1> from SENAI. I am a person driven to solve problems, always seeking and learning new solutions.\n\nI have experience in developing <1>Restful APIs< /1> using frameworks such as Laravel and Node.JS, as well as experience in building <1>responsive websites</1> using technologies such as React (in addition to pure HTML and CSS). I also work with <1>relational databases</1>, mainly PostgreSQL and MySQL, like this experience with other languages such as Python and C++."
   },
   "experiences": {
     "title": "Experiences",
     "golfarma": {
       "position": "Internship - Backend Developer",
-      "description": "Pharmaceutical distributors focused on the Bahia market. It started to invest in technology at the end of 2019 to adapt to the more technological market.\n- Development: Creation and maintenance of restful APIs and database.\n- Operational: Direct contact with the customer, for troubleshooting and system implementation.\n- Technologies: PHP (Laravel), SQL (SQL Server and PostgreSQL)."
+      "description": "Pharmaceutical distributor, focused on the Bahian market (Bahia is a state in Brazil). It started investing in technology at the end of 2019 to adapt to the more technological market. I worked on the development, creation and maintenance of restful APIs and databases. I also had the experience and responsibility for contacting customers directly for problem solving and system implementation. At Golfarma I used technologies such as PHP (Laravel) and SQL (SQL Server and PostgreSQL)."
     },
     "geodatin": {
       "position": "Fullstack Developer",
-      "description": "A company focused on the development of systems combining intelligence in data and geoinformation.\n- Development: Creation and maintenance of Restful API and databases, in addition to creating web scraping to extract public data.\n- Technologies: Node.JS (Typescript, Express, TypeOrm), Python (Selenium, Beautifulsoup), PostgreSQL, Redis."
+      "description": "Company focused on systems development, combining data intelligence and geoinformation. I worked on the development, creation and maintenance of Restful API and databases, as well as the implementation of responsive pages, in addition to creating web scraping to extract public data . At Geodatin I used technologies such as Node.JS (Typescript, Express, Typeorm), React (Styled-components, Material-UI), Python (Selenium, Beautifulsoup), PostegreSQL, Redis, Docker, Github Actions."
     }
   },
   "formations": {
@@ -62,19 +62,19 @@
     "list": {
       "personalWebsite": {
         "title": "Personal Website",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "Website with information, projects personal and professional."
       },
       "ppbio": {
         "title": "PPBio",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "PPBio (Priority Bioeconomy Program in Portuguese) is a platform to raise investment resources to generate new products, services and businesses for the Amazon Bioeconomy. I worked as Back-end and Scrum Master."
       },
       "rhisa": {
         "title": "Rhisa",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "Rhisa (Human Resources and Intelligence Network for Sustainability in the Amazon in Portuguese) is a platform to connect researchers from the Legal Amazon. I worked as Back-end, developing the API and the Crawler that feeds the database."
       },
       "leadbase": {
         "title": "LeadBase",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "LeadBase is a platform for data management and analysis focused on the pharmaceutical sector. I participated in the project when they were still part of Golfarma. Posteriorly, the project became an independent startup. I worked as back-end, developing the API and database."
       }
     }
   }

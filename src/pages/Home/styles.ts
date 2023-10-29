@@ -225,23 +225,20 @@ export const ProjectItem = styled("li")`
   }
 `;
 
-interface ProjectLinkProps {
-  bg: string;
-}
-
-export const ProjectImage = styled("div")<ProjectLinkProps>`
+export const ProjectImage = styled("img")`
   width: 100%;
   max-width: 17.5rem;
   height: 9.8rem;
   border-radius: 0.5rem;
   border: 0.09375rem solid ${(props) => props.theme.border};
-  background: url(${({ bg }) => (bg ? bg : "none")});
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
   filter: brightness(80%);
 
   @media (min-width: 768px) {
     grid-area: 1 / 1 / 3 / 2;
+  }
+
+  @media (min-width: 1024px) {
+    width: 20rem;
+    height: 11.25rem;
   }
 `;

@@ -17,17 +17,17 @@
   "present": "Presente",
   "about": {
     "title": "Sobre",
-    "description": "Graduando em Engenharia da Computação pela UEFS e técnico em Desenvolvimento de Sistemas pelo SENAI. Sou uma pessoa movida a resolver problemas, buscando e aprendendo sempre novas soluções.\nAtualmente sou desenvolvedor back-end na Geodatin, uma startup focada em soluções para geoinformações e inteligência de dados.\nTenho experiência em desenvolvimento de APIs Restful usando frameworks como Laravel e Node.JS, trabalhando com bancos de dados relacionais, principalmente postgres e mysql, além de experiência com a linguagem python."
+    "description": "Possuo experiência como <1>engenheiro de software</1>, atualmente trabalhando como <1>desenvolvedor fullstack</1>, mas como uma ênfase maior em back-end.\n\nSou <1>graduando em Engenharia da Computação</1> pela UEFS e <1>técnico em Desenvolvimento de Sistemas</1> pelo SENAI.Sou uma pessoa movida a resolver problemas, buscando e aprendendo sempre novas soluções.\n\nTenho experiência em desenvolvimento de <1>APIs Restful</1> usando frameworks como Laravel e Node.JS, além de experiência em construção de <1>sites responsivos</1> usando tecnologias como o React (além do HTML e CSS puros). Trabalho também com <1>bancos de dados relacionais</1>, principalmente PostgreSQL e mysql, além de experiência com outras linguagens como python e o c++."
   },
   "experiences": {
     "title": "Experiências",
     "golfarma": {
       "position": "Estágio - Desenvolvedor Backend",
-      "description": "Distribuidora farmacêutica, focada no mercado baiano. Passou a investir em tecnologia no final de 2019 para se adaptar ao mercado mais tecnológico.\n- Desenvolvimento: Criação e manutenção de API's restful e banco de dados.\n- Operacional: Contato direto com cliente, para solução de problemas e implementação de sistema.\n- Tecnologias: PHP (Laravel), SQL (SQL Server e Postgres)."
+      "description": "Distribuidora farmacêutica, focada no mercado baiano. Passou a investir em tecnologia no final de 2019 para se adaptar ao mercado mais tecnológico.\n\nTrabalhei no desenvolvimento, criação e manutenção de API's restful e banco de dados, também tive a experiência e responsabilidade de entrar em contato direto com cliente para solução de problemas e implementação de sistema.\n\nNa Golfarma usei tecnologias como o PHP (Laravel) e o SQL (SQL Server e PostgreSQL)."
     },
     "geodatin": {
       "position": "Desenvolvedor Fullstack",
-      "description": "Empresa focada no desenvolvimento de sistemas unindo inteligência em dadose geoinformação.\n- Desenvolvimento: Criação e manunteção de API Restful e bancos de dados, além de criação de web scraping para extração de dados públicos.\n- Tecnologias: Node.JS (Typescript, Express, Typeorm), Python (Selenium, Beautifulsoup), Postegres, Redis, Docker, Github Actions."
+      "description": "Empresa focada no desenvolvimento de sistemas, unindo a inteligência em dados e a geoinformação.\n\nTrabalhei no desenvolvimento, criação e manunteção de API Restful e bancos de dados, bem como na implementação de páginas responsivos, além da criação de web scraping para extração de dados públicos.\n\nNa Geodatin eu usei tecnologias como Node.JS (Typescript, Express, Typeorm), React (Styled-components, Material-UI), Python (Selenium, Beautifulsoup), PostegreSQL, Redis, Docker, Github Actions."
     }
   },
   "formations": {
@@ -51,8 +51,7 @@
       "title": "Projeto",
       "bond": "Vínculo",
       "link": "Link",
-      "description": "Detalhes",
-      "skills": "Habilidades"
+      "description": "Detalhes"
     },
     "type": {
       "personal": "Pessoal",
@@ -62,19 +61,19 @@
     "list": {
       "personalWebsite": {
         "title": "Site Pessoal",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "Site com informações e projetos pessoais e profissionais."
       },
       "ppbio": {
         "title": "PPBio",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "O PPBio (Programa Prioritário de Bioeconomia) é uma plataforma para captar recursos de investimentos para geração de novos produtos, serviços e negócios para a Bioeconomia Amazônica. Trabalhei como Back-end e Scrum Master."
       },
       "rhisa": {
         "title": "Rhisa",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "A Rhisa (Rede de Recursos Humanos e Inteligência para Sustentabilidade na Amazônia) é uma plataforma para conectar pesquisadores das Amazônia Legal. Trabalhei como Back-end, desenvolvendo a API e o Crawler que alimenta o banco de dados."
       },
       "leadbase": {
         "title": "LeadBase",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+        "description": "O LeadBase é uma plataforma para gestão e análise de dados voltados para o ramo farmacêutico, participei do projeto quando ainda faziam parte da Golfarma, posteriormente o projeto virou uma startup independente. Trabalhei como back-end, desenvolvendo a API e o banco de dados."
       }
     }
   }
