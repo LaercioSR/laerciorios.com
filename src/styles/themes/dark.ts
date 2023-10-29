@@ -5,4 +5,7 @@ export const darkTheme = {
   buttonText: "#FF4D4D",
   buttonHeader: "#0000001a",
   border: "#f0f0f0",
+  nestedList: "#404040",
+  nestedListBorder: "#4d4d4d",
+  nestedListHover: "#262626",
 };

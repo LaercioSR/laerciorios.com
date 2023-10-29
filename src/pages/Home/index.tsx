@@ -23,10 +23,10 @@ import {
   SkillsList,
   SkillItem,
   ExperienceFormationContent,
-  LinkResume,
   ProjectsList,
   ProjectItem,
   ProjectImage,
+  Link,
 } from "./styles";
 import GithubLogo from "./../../assets/github.svg?react";
 import EmailLogo from "./../../assets/gmail.svg?react";
@@ -178,10 +178,10 @@ export function Home() {
                 </ExperienceFormation>
               );
             })}
-            <LinkResume href={t("linkResume")} target="__blank">
+            <Link to={t("linkResume")} target="__blank">
               {t("seeResume")}
               <ArrowForward />
-            </LinkResume>
+            </Link>
           </SectionInfo>
           <SectionInfo>
             <SectionTitle>{t("formations.title")}</SectionTitle>
@@ -213,7 +213,7 @@ export function Home() {
               );
             })}
           </SectionInfo>
-          <SectionInfo>
+          <SectionInfo marginBottom="1rem">
             <SectionTitle>{t("projects.title")}</SectionTitle>
             {projectsHighlight.length === 0 && (
               <SectionDescription>
@@ -232,6 +232,10 @@ export function Home() {
                 </ProjectItem>
               ))}
             </ProjectsList>
+            <Link to="/projects">
+              {t("projects.seeMore")}
+              <ArrowForward />
+            </Link>
           </SectionInfo>
         </RightSide>
       </Content>

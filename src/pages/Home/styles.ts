@@ -1,3 +1,4 @@
+import { Link as ReactRouterDomLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled("div")`
@@ -97,10 +98,15 @@ export const RightSide = styled("div")`
   padding-bottom: 2rem;
 `;
 
-export const SectionInfo = styled("div")`
+interface SectionInfoProps {
+  marginBottom?: string;
+}
+
+export const SectionInfo = styled("div")<SectionInfoProps>`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: ${({ marginBottom }) => (marginBottom ? marginBottom : "0")};
 `;
 
 export const SectionTitle = styled("h2")`
@@ -188,7 +194,7 @@ export const SkillItem = styled("li")`
   color: ${(props) => props.theme.buttonText};
 `;
 
-export const LinkResume = styled("a")`
+export const Link = styled(ReactRouterDomLink)`
   color: ${(props) => props.theme.text};
   text-decoration: underline;
   opacity: 0.7;
@@ -213,7 +219,6 @@ export const ProjectsList = styled("ul")`
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin-bottom: 1rem;
 `;
 
 export const ProjectItem = styled("li")`
