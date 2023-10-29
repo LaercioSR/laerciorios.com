@@ -180,20 +180,6 @@ export const ExperienceFormationDescription = styled("p")`
   margin: 0.5rem 0;
 `;
 
-export const SkillsList = styled("ul")`
-  list-style-type: none;
-  display: flex;
-  gap: 0.25rem;
-  flex-wrap: wrap;
-`;
-
-export const SkillItem = styled("li")`
-  padding: 0.5rem 0.75rem;
-  border-radius: 99999px;
-  background-color: ${(props) => props.theme.button};
-  color: ${(props) => props.theme.buttonText};
-`;
-
 export const Link = styled(ReactRouterDomLink)`
   color: ${(props) => props.theme.text};
   text-decoration: underline;

@@ -20,8 +20,6 @@ import {
   ExperienceFormationTitle,
   ExperienceFormationDescription,
   ExperienceFormationRole,
-  SkillsList,
-  SkillItem,
   ExperienceFormationContent,
   ProjectsList,
   ProjectItem,
@@ -37,6 +35,7 @@ import XLogo from "./../../assets/x.svg?react";
 import ArrowOutward from "./../../assets/arrow-outward.svg?react";
 import ArrowForward from "./../../assets/arrow-forward.svg?react";
 import project from "../../data/projects.json";
+import { SkillsList } from "../../components/SkillsList";
 
 export function Home() {
   const { t } = useTranslation();
@@ -169,11 +168,7 @@ export function Home() {
                     <ExperienceFormationDescription>
                       {t(`experiences.${experience.key}.description`)}
                     </ExperienceFormationDescription>
-                    <SkillsList>
-                      {experience.skills.map((skill) => {
-                        return <SkillItem key={skill}>{skill}</SkillItem>;
-                      })}
-                    </SkillsList>
+                    <SkillsList skills={experience.skills} />
                   </ExperienceFormationContent>
                 </ExperienceFormation>
               );

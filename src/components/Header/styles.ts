@@ -12,9 +12,19 @@ export const Content = styled("div")`
   width: 100%;
   max-width: 1200px;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   gap: 0.25rem;
+`;
+
+export const MenuLeftSide = styled("div")`
+  display: flex;
+  align-items: center;
+`;
+
+export const MenuRightSide = styled("div")`
+  display: flex;
+  align-items: center;
 `;
 
 const HeaderButton = styled("button")`
@@ -28,6 +38,16 @@ const HeaderButton = styled("button")`
 
   &:hover {
     background-color: ${({ theme }) => theme.buttonHeader};
+  }
+`;
+
+export const BackButton = styled(HeaderButton)`
+  padding: 0.25rem;
+
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: ${({ theme }) => theme.text};
   }
 `;
 

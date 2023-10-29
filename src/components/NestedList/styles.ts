@@ -2,7 +2,23 @@ import styled from "styled-components";
 
 export const Container = styled("div")`
   width: 100%;
+  height: 100%;
   background-color: ${(props) => props.theme.nestedList};
+  overflow-y: scroll;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: ${(props) => props.theme.nestedListHover};
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: ${(props) => props.theme.nestedList};
+  }
 `;
 
 export const List = styled("ul")`
