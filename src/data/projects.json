@@ -1,0 +1,42 @@
+[
+  {
+    "key": "personalWebsite",
+    "link": "https://laerciorios.com",
+    "year": "2023",
+    "skill": ["React"],
+    "type": "personal",
+    "bond": "",
+    "image": "personalWebsite.png",
+    "highlight": true
+  },
+  {
+    "key": "ppbio",
+    "link": "https://bioeconomia.org.br/",
+    "year": "2022",
+    "skill": ["Node.JS", "Typescript", "PostgreSQL"],
+    "type": "professional",
+    "bond": "Geodatin",
+    "image": "",
+    "highlight": false
+  },
+  {
+    "key": "rhisa",
+    "link": "https://rhisa.org/",
+    "year": "2021",
+    "skill": ["Node.JS", "Typescript", "PostgreSQL"],
+    "type": "professional",
+    "bond": "Geodatin",
+    "image": "",
+    "highlight": false
+  },
+  {
+    "key": "leadbase",
+    "link": "https://leadbase.com.br/",
+    "year": "2020",
+    "skill": ["PHP", "Laravel", "PostgreSQL"],
+    "type": "professional",
+    "bond": "Golfarma",
+    "image": "",
+    "highlight": false
+  }
+]

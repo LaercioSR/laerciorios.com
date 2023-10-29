@@ -62,6 +62,7 @@ export const SocialNetworks = styled("ul")`
   display: flex;
   gap: 0.25rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 `;
 
 export const SocialNetworkItem = styled("li")`
@@ -177,6 +178,7 @@ export const SkillsList = styled("ul")`
   list-style-type: none;
   display: flex;
   gap: 0.25rem;
+  flex-wrap: wrap;
 `;
 
 export const SkillItem = styled("li")`
@@ -203,5 +205,52 @@ export const LinkResume = styled("a")`
 
   &:hover {
     opacity: 1;
+  }
+`;
+
+export const ProjectsList = styled("ul")`
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 1rem;
+`;
+
+export const ProjectItem = styled("li")`
+  display: grid;
+  gap: 0.5rem;
+
+  a {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: minmax(17.5rem, auto) 1fr;
+    grid-column-gap: 1.5rem;
+
+    a {
+      grid-area: 1 / 2 / 2 / 3;
+    }
+  }
+`;
+
+interface ProjectLinkProps {
+  bg: string;
+}
+
+export const ProjectImage = styled("div")<ProjectLinkProps>`
+  width: 100%;
+  max-width: 17.5rem;
+  height: 9.8rem;
+  border-radius: 0.5rem;
+  border: 0.09375rem solid ${(props) => props.theme.border};
+  background: url(${({ bg }) => (bg ? bg : "none")});
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  filter: brightness(80%);
+
+  @media (min-width: 768px) {
+    grid-area: 1 / 1 / 3 / 2;
   }
 `;

@@ -43,6 +43,30 @@
   },
   "projects": {
     "title": "Projetos",
-    "noProjects": "Sem projetos no momento"
+    "noProjects": "Sem projetos no momento",
+    "seeMore": "Ver mais",
+    "type": {
+      "personal": "Pessoal",
+      "academic": "Acadêmico",
+      "professional": "Profissional"
+    },
+    "list": {
+      "personalWebsite": {
+        "title": "Site Pessoal",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+      },
+      "ppbio": {
+        "title": "PPBio",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+      },
+      "rhisa": {
+        "title": "Rhisa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+      },
+      "leadbase": {
+        "title": "LeadBase",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est nunc. In pretium felis sed tortor bibendum vulputate. Nulla congue elit vitae neque luctus, tempus pellentesque est finibus. Praesent blandit augue et congue dapibus. Vivamus non varius sapien, ac laoreet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+      }
+    }
   }
 }

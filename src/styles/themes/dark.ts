@@ -4,4 +4,5 @@ export const darkTheme = {
   button: "#FF4D4D33",
   buttonText: "#FF4D4D",
   buttonHeader: "#0000001a",
+  border: "#f0f0f0",
 };

@@ -24,8 +24,10 @@ import {
   SkillItem,
   ExperienceFormationContent,
   LinkResume,
+  ProjectsList,
+  ProjectItem,
+  ProjectImage,
 } from "./styles";
-import { Header } from "../../components/Header";
 import GithubLogo from "./../../assets/github.svg?react";
 import EmailLogo from "./../../assets/gmail.svg?react";
 import HackerrankLogo from "./../../assets/hackerrank.svg?react";
@@ -34,6 +36,7 @@ import LinkedinLogo from "./../../assets/linkedin.svg?react";
 import XLogo from "./../../assets/x.svg?react";
 import ArrowOutward from "./../../assets/arrow-outward.svg?react";
 import ArrowForward from "./../../assets/arrow-forward.svg?react";
+import project from "../../data/projects.json";
 
 export function Home() {
   const { t } = useTranslation();
@@ -107,11 +110,10 @@ export function Home() {
     },
   ];
 
-  // const projects = [];
+  const projectsHighlight = project.filter((project) => project.highlight);
 
   return (
     <Container>
-      <Header />
       <Content>
         <LeftSide>
           <ProfileInfo>
@@ -213,7 +215,23 @@ export function Home() {
           </SectionInfo>
           <SectionInfo>
             <SectionTitle>{t("projects.title")}</SectionTitle>
-            <SectionDescription>{t("projects.noProjects")}</SectionDescription>
+            {projectsHighlight.length === 0 && (
+              <SectionDescription>
+                {t("projects.noProjects")}
+              </SectionDescription>
+            )}
+            <ProjectsList>
+              {projectsHighlight.map((project) => (
+                <ProjectItem key={project.key}>
+                  <ProjectImage bg={`./img/projects/${project.image}`} />
+                  <ExperienceFormationTitle href={project.link}>
+                    {t(`projects.list.${project.key}.title`)}
+                    {project.link && <ArrowOutward />}
+                  </ExperienceFormationTitle>
+                  <p>{t(`projects.list.${project.key}.description`)}</p>
+                </ProjectItem>
+              ))}
+            </ProjectsList>
           </SectionInfo>
         </RightSide>
       </Content>
