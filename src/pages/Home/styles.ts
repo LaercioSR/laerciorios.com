@@ -27,6 +27,7 @@ export const LeftSide = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  align-items: center;
 
   @media (min-width: 1024px) {
     min-width: 350px;
@@ -41,7 +42,15 @@ export const LeftSide = styled("div")`
 export const ProfileInfo = styled("div")`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 0.5rem;
+`;
+
+export const ProfileImage = styled("img")`
+  border-radius: 50%;
+  width: 15rem;
+  border: 0.25rem solid ${(props) => props.theme.border};
 `;
 
 export const ProfileName = styled("h1")`
@@ -56,11 +65,13 @@ export const ProfileProfession = styled("h2")`
 export const ProfileDescription = styled("p")`
   color: ${(props) => props.theme.text};
   opacity: 0.5;
+  max-width: 30rem;
 `;
 
 export const SocialNetworks = styled("ul")`
   list-style-type: none;
   display: flex;
+  justify-content: center;
   gap: 0.25rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;

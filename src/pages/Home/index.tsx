@@ -25,10 +25,12 @@ import {
   ProjectItem,
   ProjectImage,
   Link,
+  ProfileImage,
 } from "./styles";
 import GithubLogo from "./../../assets/github.svg?react";
 import EmailLogo from "./../../assets/gmail.svg?react";
 import HackerrankLogo from "./../../assets/hackerrank.svg?react";
+import HowLongToBeatLogo from "./../../assets/howlongtobeat.svg?react";
 import LeetCodeLogo from "./../../assets/leetcode.svg?react";
 import LinkedinLogo from "./../../assets/linkedin.svg?react";
 import XLogo from "./../../assets/x.svg?react";
@@ -36,6 +38,7 @@ import ArrowOutward from "./../../assets/arrow-outward.svg?react";
 import ArrowForward from "./../../assets/arrow-forward.svg?react";
 import project from "../../data/projects.json";
 import { SkillsList } from "../../components/SkillsList";
+import profileImg from "./../../assets/profile.png";
 
 export function Home() {
   const { t } = useTranslation();
@@ -70,6 +73,11 @@ export function Home() {
       name: "leetcode",
       url: "https://leetcode.com/LaercioRios/",
       icon: <LeetCodeLogo />,
+    },
+    {
+      name: "howlongtobeat",
+      url: "https://howlongtobeat.com/user/MrTalo",
+      icon: <HowLongToBeatLogo />,
     },
   ];
 
@@ -116,6 +124,7 @@ export function Home() {
       <Content>
         <LeftSide>
           <ProfileInfo>
+            <ProfileImage src={profileImg} />
             <div>
               <ProfileName>Laercio Rios</ProfileName>
               <ProfileProfession>{t("profession")}</ProfileProfession>
