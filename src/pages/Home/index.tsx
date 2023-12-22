@@ -28,6 +28,7 @@ import {
   ProfileImage,
   ChristmasCap,
   ProfileImageContainer,
+  ExpandMoreButton,
 } from "./styles";
 import GithubLogo from "./../../assets/github.svg?react";
 import GoodreadsLogo from "./../../assets/goodreads.svg?react";
@@ -127,6 +128,10 @@ export function Home() {
 
   const projectsHighlight = project.filter((project) => project.highlight);
 
+  function handleExpandMore() {
+    window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+  }
+
   return (
     <Container>
       <Content>
@@ -153,6 +158,7 @@ export function Home() {
               );
             })}
           </SocialNetworks>
+          <ExpandMoreButton onClick={handleExpandMore} />
         </LeftSide>
         <RightSide>
           <SectionInfo>

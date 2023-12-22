@@ -1,6 +1,7 @@
 import { Link as ReactRouterDomLink } from "react-router-dom";
 import styled from "styled-components";
 import ChristmasCapIcon from "./../../assets/christmas-cap.svg?react";
+import ExpandMore from "./../../assets/expand-more.svg?react";
 
 export const Container = styled("div")`
   width: 100%;
@@ -84,8 +85,11 @@ export const SocialNetworks = styled("ul")`
   display: flex;
   justify-content: center;
   gap: 0.25rem;
-  margin-bottom: 2rem;
   flex-wrap: wrap;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const SocialNetworkItem = styled("li")`
@@ -110,6 +114,16 @@ export const SocialNetworkLink = styled("a")`
     fill: ${(props) => props.theme.text};
     opacity: 0.7;
     transition: opacity 0.2s ease-in-out;
+  }
+`;
+
+export const ExpandMoreButton = styled(ExpandMore)`
+  fill: ${(props) => props.theme.text};
+  opacity: 0.7;
+  cursor: pointer;
+
+  @media (min-width: 1024px) {
+    display: none;
   }
 `;
 
