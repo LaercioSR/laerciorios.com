@@ -46,6 +46,9 @@ import profileImg from "./../../assets/profile.png";
 
 export function Home() {
   const { t } = useTranslation();
+  const today = new Date();
+  const isChristmasPeriod =
+    today.getMonth() === 11 && today.getDate() >= 18 && today.getDate() <= 25;
 
   const socialNetworks = [
     {
@@ -138,7 +141,7 @@ export function Home() {
         <LeftSide>
           <ProfileInfo>
             <ProfileImageContainer>
-              <ChristmasCap />
+              {isChristmasPeriod && <ChristmasCap />}
               <ProfileImage src={profileImg} />
             </ProfileImageContainer>
             <div>
