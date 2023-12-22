@@ -47,6 +47,16 @@ export const ProfileInfo = styled("div")`
   gap: 0.5rem;
 `;
 
+export const ProfileImageContainer = styled("div")`
+  position: relative;
+`;
+
+export const ChristmasCap = styled("img")`
+  position: absolute;
+  top: -1.5rem;
+  left: 1.5rem;
+`;
+
 export const ProfileImage = styled("img")`
   border-radius: 50%;
   width: 15rem;

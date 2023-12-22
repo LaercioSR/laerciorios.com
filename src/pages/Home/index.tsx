@@ -26,6 +26,8 @@ import {
   ProjectImage,
   Link,
   ProfileImage,
+  ChristmasCap,
+  ProfileImageContainer,
 } from "./styles";
 import GithubLogo from "./../../assets/github.svg?react";
 import GoodreadsLogo from "./../../assets/goodreads.svg?react";
@@ -40,6 +42,7 @@ import ArrowForward from "./../../assets/arrow-forward.svg?react";
 import project from "../../data/projects.json";
 import { SkillsList } from "../../components/SkillsList";
 import profileImg from "./../../assets/profile.png";
+import christmasCapImg from "./../../assets/christmas-cap.png";
 
 export function Home() {
   const { t } = useTranslation();
@@ -130,7 +133,10 @@ export function Home() {
       <Content>
         <LeftSide>
           <ProfileInfo>
-            <ProfileImage src={profileImg} />
+            <ProfileImageContainer>
+              <ChristmasCap src={christmasCapImg} />
+              <ProfileImage src={profileImg} />
+            </ProfileImageContainer>
             <div>
               <ProfileName>Laercio Rios</ProfileName>
               <ProfileProfession>{t("profession")}</ProfileProfession>
