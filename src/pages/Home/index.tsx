@@ -36,6 +36,7 @@ import EmailLogo from "./../../assets/gmail.svg?react";
 import HackerrankLogo from "./../../assets/hackerrank.svg?react";
 import HowLongToBeatLogo from "./../../assets/howlongtobeat.svg?react";
 import LeetCodeLogo from "./../../assets/leetcode.svg?react";
+import LetterboxdLogo from "./../../assets/letterboxd.svg?react";
 import LinkedinLogo from "./../../assets/linkedin.svg?react";
 import XLogo from "./../../assets/x.svg?react";
 import ArrowOutward from "./../../assets/arrow-outward.svg?react";
@@ -63,17 +64,17 @@ export function Home() {
     },
     {
       name: "github",
-      url: "https://github.com/LaercioSR",
+      url: "https://github.com/LaercioSR/",
       icon: <GithubLogo />,
     },
     {
       name: "x",
-      url: "https://twitter.com/devlaercio",
+      url: "https://twitter.com/devlaercio/",
       icon: <XLogo />,
     },
     {
       name: "hackerrank",
-      url: "https://www.hackerrank.com/profile/LaercioRios",
+      url: "https://www.hackerrank.com/profile/LaercioRios/",
       icon: <HackerrankLogo />,
     },
     {
@@ -83,13 +84,18 @@ export function Home() {
     },
     {
       name: "howlongtobeat",
-      url: "https://howlongtobeat.com/user/MrTalo",
+      url: "https://howlongtobeat.com/user/MrTalo/",
       icon: <HowLongToBeatLogo />,
     },
     {
       name: "goodreads",
-      url: "https://goodreads.com/laerciorios",
+      url: "https://goodreads.com/laerciorios/",
       icon: <GoodreadsLogo />,
+    },
+    {
+      name: "letterboxd",
+      url: "https://letterboxd.com/laerciorios/",
+      icon: <LetterboxdLogo />,
     },
   ];
 
