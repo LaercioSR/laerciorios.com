@@ -42,7 +42,6 @@ import ArrowForward from "./../../assets/arrow-forward.svg?react";
 import project from "../../data/projects.json";
 import { SkillsList } from "../../components/SkillsList";
 import profileImg from "./../../assets/profile.png";
-import christmasCapImg from "./../../assets/christmas-cap.png";
 
 export function Home() {
   const { t } = useTranslation();
@@ -134,7 +133,7 @@ export function Home() {
         <LeftSide>
           <ProfileInfo>
             <ProfileImageContainer>
-              <ChristmasCap src={christmasCapImg} />
+              <ChristmasCap />
               <ProfileImage src={profileImg} />
             </ProfileImageContainer>
             <div>

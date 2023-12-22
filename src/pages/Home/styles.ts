@@ -1,5 +1,6 @@
 import { Link as ReactRouterDomLink } from "react-router-dom";
 import styled from "styled-components";
+import ChristmasCapIcon from "./../../assets/christmas-cap.svg?react";
 
 export const Container = styled("div")`
   width: 100%;
@@ -51,10 +52,10 @@ export const ProfileImageContainer = styled("div")`
   position: relative;
 `;
 
-export const ChristmasCap = styled("img")`
+export const ChristmasCap = styled(ChristmasCapIcon)`
   position: absolute;
-  top: -1.5rem;
-  left: 1.5rem;
+  top: -1rem;
+  left: 3.5rem;
 `;
 
 export const ProfileImage = styled("img")`
