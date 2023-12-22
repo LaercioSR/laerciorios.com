@@ -28,6 +28,7 @@ import {
   ProfileImage,
 } from "./styles";
 import GithubLogo from "./../../assets/github.svg?react";
+import GoodreadsLogo from "./../../assets/goodreads.svg?react";
 import EmailLogo from "./../../assets/gmail.svg?react";
 import HackerrankLogo from "./../../assets/hackerrank.svg?react";
 import HowLongToBeatLogo from "./../../assets/howlongtobeat.svg?react";
@@ -78,6 +79,11 @@ export function Home() {
       name: "howlongtobeat",
       url: "https://howlongtobeat.com/user/MrTalo",
       icon: <HowLongToBeatLogo />,
+    },
+    {
+      name: "goodreads",
+      url: "https://goodreads.com/laerciorios",
+      icon: <GoodreadsLogo />,
     },
   ];
 
