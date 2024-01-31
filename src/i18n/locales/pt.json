@@ -74,6 +74,10 @@
       "leadbase": {
         "title": "LeadBase",
         "description": "O LeadBase é uma plataforma para gestão e análise de dados voltados para o ramo farmacêutico, participei do projeto quando ainda faziam parte da Golfarma, posteriormente o projeto virou uma startup independente. Trabalhei como back-end, desenvolvendo a API e o banco de dados."
+      },
+      "semesterUefs": {
+        "title": "Semestre UEFS",
+        "description": "Site com informações sobre os dias que faltam para o fim semestre letivo da UEFS."
       }
     }
   }

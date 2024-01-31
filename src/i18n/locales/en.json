@@ -75,6 +75,10 @@
       "leadbase": {
         "title": "LeadBase",
         "description": "LeadBase is a platform for data management and analysis focused on the pharmaceutical sector. I participated in the project when they were still part of Golfarma. Posteriorly, the project became an independent startup. I worked as back-end, developing the API and database."
+      },
+      "semesterUefs": {
+        "title": "Semester UEFS",
+        "description": "Website with information about the days left until the end of the UEFS academic semester."
       }
     }
   }

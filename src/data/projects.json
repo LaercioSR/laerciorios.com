@@ -1,5 +1,15 @@
 [
   {
+    "key": "semesterUefs",
+    "link": "https://semestreuefs.laerciorios.com",
+    "year": "2024",
+    "skills": ["NextJs", "Typescript", "Github Actions", "CyPress"],
+    "type": "personal",
+    "bond": "",
+    "image": "semesterUefs.png",
+    "highlight": true
+  },
+  {
     "key": "personalWebsite",
     "link": "https://laerciorios.com",
     "year": "2023",
