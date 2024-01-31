@@ -268,6 +268,11 @@ export const ProjectImage = styled("img")`
   border-radius: 0.5rem;
   border: 0.09375rem solid ${(props) => props.theme.border};
   filter: brightness(80%);
+  transition: filter 0.3s ease-in-out;
+
+  &:hover {
+    filter: brightness(100%);
+  }
 
   @media (min-width: 768px) {
     grid-area: 1 / 1 / 3 / 2;
